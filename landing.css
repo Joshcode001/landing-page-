@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  font-size: 10px;
+  display: flex;
+}
+.edit1 li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  color: black;
+}
+.edit1 {
+  text-align: center;
+  display: flex;
+  margin-left: 370px;
+  margin-top: 30px;
+}
+  
+.edit2 {
+  align-content:end;
+  margin-left: 230px;
+  margin-bottom: 10px;
+}
+.edit2 button {
+  padding: 15px;
+  background-color: #EE4266;
+  border: none;
+  border-radius: 7px;
+  font-size: 9px;
+  width: 90px;
+  cursor: pointer;
+}
+#button1 {
+  color:#013254;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.edit1 a {
+  text-decoration: none;
+}
+.edit3 {
+  margin-top: 50px;
+  margin-left: 70px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+.edit3 span{
+  color: #EE4266;
+}
+.edit4 img {
+  margin-left: 90px;
+}
+.edit3 p {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 8px;
+}
+.edit5 input {
+padding: 10px;
+width: 280px;
+background-color: #fbfbfb;
+border: 1px solid rgba(128, 128, 128, 0.745);
+margin-right: 10px;
+}
+#button2 {
+  padding: 13px;
+  background-color: #EE4266;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.edit5 {
+  margin-top: 20px;
+}
+#edit8 {
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.edit11 {
+  display: grid;
+  grid-template-columns: 600px 220px 220px;
+  grid-template-rows: 145px 145px 145px;
+  width: 1400px;
+  height: 500px;
+  background-color: #fbfbfb;
+  margin-top: 30px;
+  column-gap:17px;
+  row-gap:10px;
+  margin-left: 150px;
+}
+.edit11 span {
+  color: #EE4266;
+}
+.edit11 > div {
+  background-color: transparent;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  align-content: stretch;
+}
+.edit13 {
+  margin-top: 20px;
+}
+.edit11 p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.item2 {
+  grid-row-start:1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  border: 2px solid red;
+  width: 150px;
+  height: 70px;
+  background-color: transparent;
+  font-size: small;
+  border-radius: 10px;
+  align-content: center;
+  padding: 35px;
+}
+.item3 {
+  grid-row-start:1;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  border: 2px solid red;
+  width: 150px;
+  height: 70px;
+  background-color: transparent;
+  font-size: small;
+  border-radius: 10px;
+  align-self: self-start;
+  padding: 35px;
+  margin-bottom: 200px;
+}
+.item4 {
+  grid-row-start:2;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  border: 2px solid red;
+  width: 150px;
+  height: 70px;
+  background-color: transparent;
+  font-size: small;
+  border-radius: 10px;
+  align-content: center;
+  padding: 35px;
+}
+.item5 {
+  grid-row-start:2;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  border: 2px solid red;
+  width: 150px;
+  height: 70px;
+  background-color: transparent;
+  font-size: small;
+  border-radius: 10px;
+  align-content: center;
+  padding: 35px;
+}
+.item33 {
+  justify-content: center;
+  text-align: center;
+  background-color: #fbfbfb;
+}
+.item33 span {
+ color: #EE4266;
+}
+.item33 h6 {
+  font-size: 8px;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.678);
+}
+.item33 p {
+  font-size: 10px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+.item33 button {
+  background-color: #EE4266;
+  color: white;
+  padding: 12px;
+  border-radius: 7px;
+  border: none;
+  font-size: 8px;
+  margin-top: 18px;
+  width: 130px;
+}
+.edit11 h4 {
+  color: #EE4266;
+  margin-top: 5px;
+}
+.item34 {
+  margin-top: 80px;
+}
+.item35 {
+  margin-top: 50px;
+  margin-left: 170px;
+}
+.item35 h3 {
+  font-weight: bolder;
+  font-size: 46px;
+}
+.item35 p {
+  color: #ff5454;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+.item36 {
+  margin-top: 68px;
+  margin-left: 140px;
+}
+.edit44 {
+  margin-top: 100px;
+}
+.edit45 {
+  float: inline-end;
+  margin-top: 20px;
+}
+footer ul {
+  display: flex;
+  list-style-type: none;
+  margin: 10px;
+  margin-top: 20px ;
+
+}
+footer li {
+  padding-left: 30px;
+}
+.right {
+  float:right;
+  margin-bottom: 90px;
+  margin-top: -30px
+}
+.edit55 {
+  justify-content: center;
+  align-items: center;
+}
